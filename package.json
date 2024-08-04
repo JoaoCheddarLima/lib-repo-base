@@ -1,0 +1,20 @@
+{
+  "name": "typescript-library-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx ./test/index.ts"
+  },
+  "keywords": ["typescript", "library", "boilerplate", "base", "SDK", "API"],
+  "author": "Joao-Lima",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.16.5"
+  }
+}
