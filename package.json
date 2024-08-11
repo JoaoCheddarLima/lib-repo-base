@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "clean": "rimraf esm",
+    "clean": "rimraf lib",
     "compiler": "npm run test && npm run clean && tsc --pretty && babel --extensions '.ts' src -d esm",
     "build": "npm run compiler"
   },
