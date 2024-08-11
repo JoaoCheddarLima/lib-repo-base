@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "clean": "rimraf esm",
-    "compiler": "npm run clean && tsc --pretty && babel --extensions '.ts' src -d esm",
+    "compiler": "npm run test && npm run clean && tsc --pretty && babel --extensions '.ts' src -d esm",
     "build": "npm run compiler"
   },
   "keywords": [],
