@@ -8,6 +8,7 @@
         "skipDefaultLibCheck": true,
         "strict": true,
         "esModuleInterop": true,
+        "isolatedModules": true
     },
     "include": [
         "./src/**/*"

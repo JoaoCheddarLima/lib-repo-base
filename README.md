@@ -25,6 +25,13 @@ import MyLib from "< Library name >";
 
 ```
 
+## Development
+
+* Clone this repository
+* Run `yarn` or `npm i -g yarn`
+* For testing check `./test`
+* Run tests by running `yarn test`
+
 # Disclaimer
 
 This repository is for education porpouses only, if you need to claim something just open an issue or contact me through any socials in my personal profile
